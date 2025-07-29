@@ -78,34 +78,45 @@ FakeStoreAPI-Testing/
 
 ## ▶️ How to Run Automation Tests
 
-1. **Clone the repo:**
-   ```bash
-   git clone https://github.com/your-username/fakestoreapi-testing.git
-   cd fakestoreapi-testing
-   ```
 
-2. **Install dependencies:**
+
+1. **Install dependencies:**
    ```bash
    mvn clean install
    ```
 
-3. **Run tests:**
+2. **Run tests:**
    ```bash
    mvn test
    ```
 
-4. **Generate Allure Report (optional):**
+3. **Generate Allure Report (optional):**
    ```bash
    mvn allure:serve
    ```
+## ⚠️ Automation Challenges
+
+| Challenge                            | Cause                                                                 | Solution                                                              |
+|--------------------------------------|-----------------------------------------------------------------------|-----------------------------------------------------------------------|
+| Authentication Enforcement           | Some endpoints require login or token                                 | Created dedicated login test with static credentials                  |
+| Changing Data / IDs                  | Data is dynamic; IDs get deleted or updated during test execution     | Used POJOs to dynamically create and reuse new data in tests          |
+| Inconsistent Product Object Structure| `products` in cart sometimes returns list of IDs or objects           | Handled using model deserialization and flexible assertions           |
+| Rate Limiting / Timeouts             | Some endpoints are slow                                               | Applied `.time(lessThan(3000L))` to monitor and control response time|
+| Data Deletion Causing Failures       | DELETE endpoints remove required data for later tests                 | Used end-to-end flow to clean up only at the end                      |
+
+---
+## 🧰 Tools Used
+
+| Category     | Tools/Frameworks        |
+|--------------|--------------------------|
+| Manual API   | Postman, Newman          |
+| Automation   | Rest Assured, TestNG     |
+| Build Tool   | Maven                    |
+| Reporting    | Allure, Logger (SLF4J)   |
+| Language     | Java                     |
 
 ---
 
-## 📌 Sample Allure Report
-
-![Allure Report Screenshot](docs/allure-screenshot.png)
-
----
 
 ## 🙌 Credits
 
@@ -114,10 +125,8 @@ FakeStoreAPI-Testing/
 
 ---
 
-## 📎 License
 
-This project is licensed under the [MIT License](LICENSE).
 
----
 
-> “Quality is never an accident; it is always the result of intelligent effort.” – John Ruskin
+
+ **“Quality is never an accident; it is always the result of intelligent effort.”** – John Ruskin
