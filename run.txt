@@ -1,0 +1,10 @@
+C:\Users\Kimo\Desktop\API_Automation_Project_
+
+
+newman run FakeStoreAPITestProject.postman_collection.json -e Live.postman_environment.json 
+
+
+newman run FakeStoreAPITestProject.postman_collection.json -e Live.postman_environment.json -r htmlextra
+
+
+allure.bat serve allure-results
