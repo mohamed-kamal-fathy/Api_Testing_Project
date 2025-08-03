@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="30" passed="30" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-29T16:51:14 EEST" name="Surefire suite" finished-at="2025-07-29T16:51:30 EEST" duration-ms="16288">
+    <groups>
+    </groups>
+    <test started-at="2025-07-29T16:51:14 EEST" name="Surefire test" finished-at="2025-07-29T16:51:30 EEST" duration-ms="16288">
+      <class name="EndToEnd.EndToEnd_Test">
+        <test-method signature="E2E_Flow()[pri:0, instance:EndToEnd.EndToEnd_Test@1e04fa0a]" started-at="2025-07-29T16:51:21 EEST" name="E2E_Flow" finished-at="2025-07-29T16:51:24 EEST" duration-ms="2821" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- E2E_Flow -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:EndToEnd.EndToEnd_Test@1e04fa0a]" started-at="2025-07-29T16:51:21 EEST" name="setup" finished-at="2025-07-29T16:51:21 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+      </class> <!-- EndToEnd.EndToEnd_Test -->
+      <class name="Auth.Login_Test">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Auth.Login_Test@1da2cb77]" started-at="2025-07-29T16:51:14 EEST" name="setup" finished-at="2025-07-29T16:51:14 EEST" duration-ms="367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="user_login_test()[pri:0, instance:Auth.Login_Test@1da2cb77]" started-at="2025-07-29T16:51:14 EEST" name="user_login_test" finished-at="2025-07-29T16:51:16 EEST" duration-ms="1700" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_login_test -->
+      </class> <!-- Auth.Login_Test -->
+      <class name="Users.Users_Test">
+        <test-method signature="Sort_result_of_users_DESC()[pri:0, instance:Users.Users_Test@18d87d80]" started-at="2025-07-29T16:51:27 EEST" name="Sort_result_of_users_DESC" finished-at="2025-07-29T16:51:27 EEST" duration-ms="330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Sort_result_of_users_DESC -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Users.Users_Test@18d87d80]" started-at="2025-07-29T16:51:27 EEST" name="setup" finished-at="2025-07-29T16:51:27 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="add_a_new_user()[pri:0, instance:Users.Users_Test@18d87d80]" started-at="2025-07-29T16:51:27 EEST" name="add_a_new_user" finished-at="2025-07-29T16:51:28 EEST" duration-ms="219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_a_new_user -->
+        <test-method signature="delete_a_specific_cart()[pri:0, instance:Users.Users_Test@18d87d80]" started-at="2025-07-29T16:51:28 EEST" name="delete_a_specific_cart" finished-at="2025-07-29T16:51:28 EEST" duration-ms="379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete_a_specific_cart -->
+        <test-method signature="get_a_single_user()[pri:0, instance:Users.Users_Test@18d87d80]" started-at="2025-07-29T16:51:28 EEST" name="get_a_single_user" finished-at="2025-07-29T16:51:28 EEST" duration-ms="323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_a_single_user -->
+        <test-method signature="get_all_users()[pri:0, instance:Users.Users_Test@18d87d80]" started-at="2025-07-29T16:51:28 EEST" name="get_all_users" finished-at="2025-07-29T16:51:29 EEST" duration-ms="839" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_all_users -->
+        <test-method signature="limit_results_of_users()[pri:0, instance:Users.Users_Test@18d87d80]" started-at="2025-07-29T16:51:29 EEST" name="limit_results_of_users" finished-at="2025-07-29T16:51:30 EEST" duration-ms="730" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- limit_results_of_users -->
+        <test-method signature="update_a_user_using_PATCH()[pri:0, instance:Users.Users_Test@18d87d80]" started-at="2025-07-29T16:51:30 EEST" name="update_a_user_using_PATCH" finished-at="2025-07-29T16:51:30 EEST" duration-ms="230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- update_a_user_using_PATCH -->
+        <test-method signature="update_a_user_using_PUT()[pri:0, instance:Users.Users_Test@18d87d80]" started-at="2025-07-29T16:51:30 EEST" name="update_a_user_using_PUT" finished-at="2025-07-29T16:51:30 EEST" duration-ms="211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- update_a_user_using_PUT -->
+      </class> <!-- Users.Users_Test -->
+      <class name="Products.Product_Test">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Products.Product_Test@1af2d44a]" started-at="2025-07-29T16:51:24 EEST" name="setup" finished-at="2025-07-29T16:51:24 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Sort_result_of_products_DESC()[pri:0, instance:Products.Product_Test@1af2d44a]" started-at="2025-07-29T16:51:24 EEST" name="Sort_result_of_products_DESC" finished-at="2025-07-29T16:51:24 EEST" duration-ms="259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Sort_result_of_products_DESC -->
+        <test-method signature="delete_a_specific_product()[pri:0, instance:Products.Product_Test@1af2d44a]" started-at="2025-07-29T16:51:24 EEST" name="delete_a_specific_product" finished-at="2025-07-29T16:51:24 EEST" duration-ms="397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete_a_specific_product -->
+        <test-method signature="get_a_single_product()[pri:0, instance:Products.Product_Test@1af2d44a]" started-at="2025-07-29T16:51:24 EEST" name="get_a_single_product" finished-at="2025-07-29T16:51:24 EEST" duration-ms="228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_a_single_product -->
+        <test-method signature="get_all_categories()[pri:0, instance:Products.Product_Test@1af2d44a]" started-at="2025-07-29T16:51:24 EEST" name="get_all_categories" finished-at="2025-07-29T16:51:25 EEST" duration-ms="299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_all_categories -->
+        <test-method signature="get_all_products()[pri:0, instance:Products.Product_Test@1af2d44a]" started-at="2025-07-29T16:51:25 EEST" name="get_all_products" description="Get all products from the website" finished-at="2025-07-29T16:51:25 EEST" duration-ms="312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_all_products -->
+        <test-method signature="get_product_in_specific_categories()[pri:0, instance:Products.Product_Test@1af2d44a]" started-at="2025-07-29T16:51:25 EEST" name="get_product_in_specific_categories" finished-at="2025-07-29T16:51:25 EEST" duration-ms="321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_product_in_specific_categories -->
+        <test-method signature="limit_result_of_product()[pri:0, instance:Products.Product_Test@1af2d44a]" started-at="2025-07-29T16:51:25 EEST" name="limit_result_of_product" finished-at="2025-07-29T16:51:26 EEST" duration-ms="231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- limit_result_of_product -->
+        <test-method signature="update_product_using_PATCH()[pri:0, instance:Products.Product_Test@1af2d44a]" started-at="2025-07-29T16:51:26 EEST" name="update_product_using_PATCH" finished-at="2025-07-29T16:51:27 EEST" duration-ms="1229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- update_product_using_PATCH -->
+        <test-method signature="update_product_using_PUT()[pri:0, instance:Products.Product_Test@1af2d44a]" started-at="2025-07-29T16:51:27 EEST" name="update_product_using_PUT" finished-at="2025-07-29T16:51:27 EEST" duration-ms="227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- update_product_using_PUT -->
+      </class> <!-- Products.Product_Test -->
+      <class name="Carts.Carts_Test">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Carts.Carts_Test@66d3eec0]" started-at="2025-07-29T16:51:16 EEST" name="setup" finished-at="2025-07-29T16:51:16 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Sort_result_of_carts_DESC()[pri:0, instance:Carts.Carts_Test@66d3eec0]" started-at="2025-07-29T16:51:16 EEST" name="Sort_result_of_carts_DESC" finished-at="2025-07-29T16:51:17 EEST" duration-ms="986" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Sort_result_of_carts_DESC -->
+        <test-method signature="add_a_new_product_in_carts()[pri:0, instance:Carts.Carts_Test@66d3eec0]" started-at="2025-07-29T16:51:17 EEST" name="add_a_new_product_in_carts" finished-at="2025-07-29T16:51:18 EEST" duration-ms="465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_a_new_product_in_carts -->
+        <test-method signature="delete_a_specific_cart()[pri:0, instance:Carts.Carts_Test@66d3eec0]" started-at="2025-07-29T16:51:18 EEST" name="delete_a_specific_cart" finished-at="2025-07-29T16:51:18 EEST" duration-ms="326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete_a_specific_cart -->
+        <test-method signature="get_a_single_cart()[pri:0, instance:Carts.Carts_Test@66d3eec0]" started-at="2025-07-29T16:51:18 EEST" name="get_a_single_cart" finished-at="2025-07-29T16:51:18 EEST" duration-ms="383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_a_single_cart -->
+        <test-method signature="get_all_carts()[pri:0, instance:Carts.Carts_Test@66d3eec0]" started-at="2025-07-29T16:51:18 EEST" name="get_all_carts" finished-at="2025-07-29T16:51:19 EEST" duration-ms="418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_all_carts -->
+        <test-method signature="get_carts_in_a_date_range()[pri:0, instance:Carts.Carts_Test@66d3eec0]" started-at="2025-07-29T16:51:19 EEST" name="get_carts_in_a_date_range" finished-at="2025-07-29T16:51:19 EEST" duration-ms="330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_carts_in_a_date_range -->
+        <test-method signature="get_carts_in_specific_date()[pri:0, instance:Carts.Carts_Test@66d3eec0]" started-at="2025-07-29T16:51:19 EEST" name="get_carts_in_specific_date" finished-at="2025-07-29T16:51:19 EEST" duration-ms="330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_carts_in_specific_date -->
+        <test-method signature="get_carts_in_specific_user()[pri:0, instance:Carts.Carts_Test@66d3eec0]" started-at="2025-07-29T16:51:19 EEST" name="get_carts_in_specific_user" finished-at="2025-07-29T16:51:20 EEST" duration-ms="325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_carts_in_specific_user -->
+        <test-method signature="limit_results_of_carts()[pri:0, instance:Carts.Carts_Test@66d3eec0]" started-at="2025-07-29T16:51:20 EEST" name="limit_results_of_carts" finished-at="2025-07-29T16:51:20 EEST" duration-ms="331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- limit_results_of_carts -->
+        <test-method signature="update_a_product_PUT()[pri:0, instance:Carts.Carts_Test@66d3eec0]" started-at="2025-07-29T16:51:20 EEST" name="update_a_product_PUT" finished-at="2025-07-29T16:51:20 EEST" duration-ms="294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- update_a_product_PUT -->
+        <test-method signature="update_a_product_using_PATCH()[pri:0, instance:Carts.Carts_Test@66d3eec0]" started-at="2025-07-29T16:51:20 EEST" name="update_a_product_using_PATCH" finished-at="2025-07-29T16:51:21 EEST" duration-ms="298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- update_a_product_using_PATCH -->
+      </class> <!-- Carts.Carts_Test -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

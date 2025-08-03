@@ -1,0 +1,5 @@
+models\ProductInCart.class
+models\User.class
+models\Name.class
+models\Cart.class
+models\Product.class

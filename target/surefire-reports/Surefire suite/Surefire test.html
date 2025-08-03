@@ -1,0 +1,230 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>30/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Jul 29 16:51:14 EEST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>16 seconds (16288 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='EndToEnd.EndToEnd_Test.E2E_Flow()'><b>E2E_Flow</b><br>Test class: EndToEnd.EndToEnd_Test</td>
+<td></td>
+<td>2</td>
+<td>EndToEnd.EndToEnd_Test@1e04fa0a</td></tr>
+<tr>
+<td title='Products.Product_Test.get_a_single_product()'><b>get_a_single_product</b><br>Test class: Products.Product_Test</td>
+<td></td>
+<td>0</td>
+<td>Products.Product_Test@1af2d44a</td></tr>
+<tr>
+<td title='Products.Product_Test.update_product_using_PUT()'><b>update_product_using_PUT</b><br>Test class: Products.Product_Test</td>
+<td></td>
+<td>0</td>
+<td>Products.Product_Test@1af2d44a</td></tr>
+<tr>
+<td title='Carts.Carts_Test.get_carts_in_specific_user()'><b>get_carts_in_specific_user</b><br>Test class: Carts.Carts_Test</td>
+<td></td>
+<td>0</td>
+<td>Carts.Carts_Test@66d3eec0</td></tr>
+<tr>
+<td title='Carts.Carts_Test.update_a_product_PUT()'><b>update_a_product_PUT</b><br>Test class: Carts.Carts_Test</td>
+<td></td>
+<td>0</td>
+<td>Carts.Carts_Test@66d3eec0</td></tr>
+<tr>
+<td title='Users.Users_Test.update_a_user_using_PATCH()'><b>update_a_user_using_PATCH</b><br>Test class: Users.Users_Test</td>
+<td></td>
+<td>0</td>
+<td>Users.Users_Test@18d87d80</td></tr>
+<tr>
+<td title='Users.Users_Test.get_a_single_user()'><b>get_a_single_user</b><br>Test class: Users.Users_Test</td>
+<td></td>
+<td>0</td>
+<td>Users.Users_Test@18d87d80</td></tr>
+<tr>
+<td title='Carts.Carts_Test.limit_results_of_carts()'><b>limit_results_of_carts</b><br>Test class: Carts.Carts_Test</td>
+<td></td>
+<td>0</td>
+<td>Carts.Carts_Test@66d3eec0</td></tr>
+<tr>
+<td title='Carts.Carts_Test.get_all_carts()'><b>get_all_carts</b><br>Test class: Carts.Carts_Test</td>
+<td></td>
+<td>0</td>
+<td>Carts.Carts_Test@66d3eec0</td></tr>
+<tr>
+<td title='Products.Product_Test.get_all_categories()'><b>get_all_categories</b><br>Test class: Products.Product_Test</td>
+<td></td>
+<td>0</td>
+<td>Products.Product_Test@1af2d44a</td></tr>
+<tr>
+<td title='Products.Product_Test.update_product_using_PATCH()'><b>update_product_using_PATCH</b><br>Test class: Products.Product_Test</td>
+<td></td>
+<td>1</td>
+<td>Products.Product_Test@1af2d44a</td></tr>
+<tr>
+<td title='Products.Product_Test.Sort_result_of_products_DESC()'><b>Sort_result_of_products_DESC</b><br>Test class: Products.Product_Test</td>
+<td></td>
+<td>0</td>
+<td>Products.Product_Test@1af2d44a</td></tr>
+<tr>
+<td title='Carts.Carts_Test.get_a_single_cart()'><b>get_a_single_cart</b><br>Test class: Carts.Carts_Test</td>
+<td></td>
+<td>0</td>
+<td>Carts.Carts_Test@66d3eec0</td></tr>
+<tr>
+<td title='Carts.Carts_Test.get_carts_in_a_date_range()'><b>get_carts_in_a_date_range</b><br>Test class: Carts.Carts_Test</td>
+<td></td>
+<td>0</td>
+<td>Carts.Carts_Test@66d3eec0</td></tr>
+<tr>
+<td title='Users.Users_Test.get_all_users()'><b>get_all_users</b><br>Test class: Users.Users_Test</td>
+<td></td>
+<td>0</td>
+<td>Users.Users_Test@18d87d80</td></tr>
+<tr>
+<td title='Users.Users_Test.limit_results_of_users()'><b>limit_results_of_users</b><br>Test class: Users.Users_Test</td>
+<td></td>
+<td>0</td>
+<td>Users.Users_Test@18d87d80</td></tr>
+<tr>
+<td title='Products.Product_Test.get_all_products()'><b>get_all_products</b><br>Test class: Products.Product_Test<br>Test method: Get all products from the website</td>
+<td></td>
+<td>0</td>
+<td>Products.Product_Test@1af2d44a</td></tr>
+<tr>
+<td title='Products.Product_Test.get_product_in_specific_categories()'><b>get_product_in_specific_categories</b><br>Test class: Products.Product_Test</td>
+<td></td>
+<td>0</td>
+<td>Products.Product_Test@1af2d44a</td></tr>
+<tr>
+<td title='Users.Users_Test.update_a_user_using_PUT()'><b>update_a_user_using_PUT</b><br>Test class: Users.Users_Test</td>
+<td></td>
+<td>0</td>
+<td>Users.Users_Test@18d87d80</td></tr>
+<tr>
+<td title='Carts.Carts_Test.delete_a_specific_cart()'><b>delete_a_specific_cart</b><br>Test class: Carts.Carts_Test</td>
+<td></td>
+<td>0</td>
+<td>Carts.Carts_Test@66d3eec0</td></tr>
+<tr>
+<td title='Users.Users_Test.add_a_new_user()'><b>add_a_new_user</b><br>Test class: Users.Users_Test</td>
+<td></td>
+<td>0</td>
+<td>Users.Users_Test@18d87d80</td></tr>
+<tr>
+<td title='Products.Product_Test.limit_result_of_product()'><b>limit_result_of_product</b><br>Test class: Products.Product_Test</td>
+<td></td>
+<td>0</td>
+<td>Products.Product_Test@1af2d44a</td></tr>
+<tr>
+<td title='Auth.Login_Test.user_login_test()'><b>user_login_test</b><br>Test class: Auth.Login_Test</td>
+<td></td>
+<td>1</td>
+<td>Auth.Login_Test@1da2cb77</td></tr>
+<tr>
+<td title='Carts.Carts_Test.add_a_new_product_in_carts()'><b>add_a_new_product_in_carts</b><br>Test class: Carts.Carts_Test</td>
+<td></td>
+<td>0</td>
+<td>Carts.Carts_Test@66d3eec0</td></tr>
+<tr>
+<td title='Carts.Carts_Test.update_a_product_using_PATCH()'><b>update_a_product_using_PATCH</b><br>Test class: Carts.Carts_Test</td>
+<td></td>
+<td>0</td>
+<td>Carts.Carts_Test@66d3eec0</td></tr>
+<tr>
+<td title='Carts.Carts_Test.get_carts_in_specific_date()'><b>get_carts_in_specific_date</b><br>Test class: Carts.Carts_Test</td>
+<td></td>
+<td>0</td>
+<td>Carts.Carts_Test@66d3eec0</td></tr>
+<tr>
+<td title='Users.Users_Test.Sort_result_of_users_DESC()'><b>Sort_result_of_users_DESC</b><br>Test class: Users.Users_Test</td>
+<td></td>
+<td>0</td>
+<td>Users.Users_Test@18d87d80</td></tr>
+<tr>
+<td title='Users.Users_Test.delete_a_specific_cart()'><b>delete_a_specific_cart</b><br>Test class: Users.Users_Test</td>
+<td></td>
+<td>0</td>
+<td>Users.Users_Test@18d87d80</td></tr>
+<tr>
+<td title='Products.Product_Test.delete_a_specific_product()'><b>delete_a_specific_product</b><br>Test class: Products.Product_Test</td>
+<td></td>
+<td>0</td>
+<td>Products.Product_Test@1af2d44a</td></tr>
+<tr>
+<td title='Carts.Carts_Test.Sort_result_of_carts_DESC()'><b>Sort_result_of_carts_DESC</b><br>Test class: Carts.Carts_Test</td>
+<td></td>
+<td>0</td>
+<td>Carts.Carts_Test@66d3eec0</td></tr>
+</table><p>
+</body>
+</html>

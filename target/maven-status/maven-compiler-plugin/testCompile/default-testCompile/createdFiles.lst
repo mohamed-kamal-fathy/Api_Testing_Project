@@ -1,0 +1,6 @@
+Auth\Login_Test.class
+BaseTest\BaseTest.class
+Users\Users_Test.class
+Products\Product_Test.class
+Carts\Carts_Test.class
+EndToEnd\EndToEnd_Test.class
